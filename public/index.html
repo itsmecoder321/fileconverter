@@ -1,0 +1,100 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Converter</h1>
+        <form id="converter-form">
+            <div class="form-group">
+                <label for="file-input">Choose a file:</label>
+                <input type="file" id="file-input" accept=".jpg, .png, .mp3, .mp4, .pdf">
+            </div>
+            <div class="form-group">
+                <label for="format-select">Convert to:</label>
+                <select id="format-select">
+                    <option value="jpg">JPG</option>
+                    <option value="png">PNG</option>
+                    <option value="mp3">MP3</option>
+                    <option value="webm">WEBM</option>
+                    <option value="wav">WAV</option>
+                    <option value="ogg">OGG</option>
+                    <option value="aac">AAC</option>
+                </select>
+            </div>
+            <button type="submit">Convert</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Converter</h1>
+        <form id="converter-form">
+            <div class="form-group">
+                <label for="file-input">Choose a file:</label>
+                <input type="file" id="file-input" accept=".jpg, .jpeg, .png, .webp, .gif, .tiff, .mp3, .webm, .wav, .ogg, .aac, .mp4">
+            </div>
+            <div class="form-group">
+                <label for="format-select">Convert to:</label>
+                <select id="format-select">
+                    
+                </select>
+            </div>
+            <button type="submit">Convert</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Converter</h1>
+        <form id="converter-form">
+            <div class="form-group">
+                <label for="file-input">Choose a file (max 25MB):</label>
+                <input type="file" id="file-input" accept=".jpg, .jpeg, .png, .webp, .gif, .tiff, .mp3, .webm, .wav, .ogg, .aac, .mp4">
+                <p id="file-size-error" style="color: red; display: none;">File size must be less than 25MB.</p>
+            </div>
+            <div class="form-group">
+                <label for="format-select">Convert to:</label>
+                <select id="format-select">
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+            <button type="submit">Convert</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
